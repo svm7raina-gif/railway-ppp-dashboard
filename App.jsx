@@ -485,6 +485,9 @@ export default function App() {
             <div>
               <div style={{ fontSize: 18, fontWeight: 800, color: COLORS.gold, letterSpacing: 0.5 }}>Railway PPP Decision Engine</div>
               <div style={{ fontSize: 11, color: COLORS.textSec, marginTop: 1 }}>NMP 2.0 · Station Redevelopment Viability & Prioritization Model</div>
+              <div style={{ fontSize: 10, color: COLORS.textSec, marginTop: 4, fontWeight: 600 }}>
+  Developed by Shivam Sharma · IIM Ahmedabad
+</div>
             </div>
           </div>
         </div>
