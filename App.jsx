@@ -5,21 +5,22 @@ import { useState, useMemo, useCallback } from "react";
 // Signature: animated IRR gauge that pulses on the recommendation card
 
 const COLORS = {
-  navy: "#0B1F3A",
-  navyMid: "#122847",
-  navyLight: "#1A3560",
-  gold: "#F5A623",
-  goldLight: "#FBBF24",
+  // Light interface matching the original Claude dashboard appearance
+  navy: "#FFFFFF",
+  navyMid: "#FFFFFF",
+  navyLight: "#F3F5FF",
+  gold: "#4F46E5",
+  goldLight: "#6366F1",
   emerald: "#10B981",
   ruby: "#EF4444",
   amber: "#F59E0B",
   slate: "#64748B",
   slateLight: "#94A3B8",
-  white: "#F8FAFC",
-  cardBg: "#0F2540",
-  border: "#1E3A5F",
-  textPrimary: "#F1F5F9",
-  textSec: "#94A3B8",
+  white: "#FFFFFF",
+  cardBg: "#FFFFFF",
+  border: "#E2E8F0",
+  textPrimary: "#111827",
+  textSec: "#64748B",
 };
 
 // ─── STATION PRESETS ─────────────────────────────────────────────────────────
